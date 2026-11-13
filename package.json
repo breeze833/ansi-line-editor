@@ -1,0 +1,43 @@
+{
+  "name": "ansi-line-editor",
+  "version": "0.1.0",
+  "description": "Zero-dependency, prompt-safe ANSI/VT100 terminal line-editing engine for web terminals, WASI, and Node.js",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./line-editor": "./src/line-editor.js"
+  },
+  "scripts": {
+    "test": "node test/line-editor.test.js"
+  },
+  "files": [
+    "src",
+    "SPEC.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "author": "breeze833",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/breeze833/ansi-line-editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/breeze833/ansi-line-editor/issues"
+  },
+  "homepage": "https://github.com/breeze833/ansi-line-editor#readme",
+  "keywords": [
+    "ansi",
+    "vt100",
+    "line-editor",
+    "readline",
+    "terminal",
+    "xterm",
+    "prompt-safe",
+    "wasi",
+    "webassembly",
+    "repl",
+    "tty"
+  ]
+}
